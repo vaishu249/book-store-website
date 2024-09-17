@@ -11,6 +11,7 @@ const Navbar = () => {
     );
     return (
         <>
+            <div className='bg-background-color'>
             <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4 '>
                 <div className="navbar bg-base-100 bg-background-color">
                     <div className="navbar-start">
@@ -81,10 +82,11 @@ const Navbar = () => {
                             </svg>
                         </label>
                         <div className="">
-                            <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
+                            <a className="bg-orange-500 text-white px-3 py-2 rounded-md hover:bg-slate-900 duration-300 cursor-pointer">Login</a>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )
