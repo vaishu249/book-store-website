@@ -26,7 +26,7 @@ const Navbar = () => {
     }, [])
 return (
     <>
-        <div className={`bg-background-color fixed top-0 left-0 right-0  ${sticky?"sticky-navbar shadow-md bf-base-200 transition-all ease-in-out":""}`}>
+        <div className={`bg-background-color fixed top-0 left-0 right-0 z-50  ${sticky?"sticky-navbar shadow-md bf-base-200 transition-all ease-in-out":""}`}>
             <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>
                 <div className="navbar bg-background-color">
                     <div className="navbar-start">

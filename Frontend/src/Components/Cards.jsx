@@ -1,24 +1,26 @@
 import React from 'react'
 
-function Cards() {
+function Cards({item}) {
     return (
         <>
-            <div>
-                <div className="card bg-base-100 w-96 shadow-xl">
+            <div className='mt-4 mb-4 p-3'>
+                <div className="card  w-92 shadow-xl">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes" />
+                            src={item.image}
+                            alt="Shoes"
+                            className='w-full ' 
+                        />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
-                            Shoes!
-                            <div className="badge badge-secondary">NEW</div>
+                            {item.name}
+                            <div className="badge bg-orange-500 text-white px-4 py-3">NEW</div>
                         </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                        <p>{item.title}</p>
+                        <div className="card-actions flex justify-between">
+                            <div className="badge badge-outline hover:bg-orange-500 hover:text-white px-4 py-3">${item.price}</div>
+                            <div className="badge badge-outline hover:bg-orange-500 hover:text-white px-4 py-3">Buy Now</div>
                         </div>
                     </div>
                 </div>
