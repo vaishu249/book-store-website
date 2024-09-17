@@ -3,7 +3,7 @@ import React from 'react'
 function Cards({item}) {
     return (
         <>
-            <div className='mt-4 mb-4 p-3'>
+            <div className='mt-4  md:p-9 p-3 '>
                 <div className="card  w-92 shadow-xl">
                     <figure>
                         <img
