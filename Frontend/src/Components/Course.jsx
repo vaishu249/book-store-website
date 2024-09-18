@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Cards from "../Components/Cards";
+import list from "../../public/list.json"
 const Course = () => {
     return (
         <>
@@ -21,8 +22,12 @@ const Course = () => {
                         Back
                     </button>
                 </div>
-                <div>
-                    
+                <div className='mt-6 grid grid-cols-1 md:grid-cols-4'>
+                    {
+                        list.map((item)=>(
+                            <Cards key={item.id} item={item}/>
+                        ))
+                    }
                 </div>
             </div>
         </>
