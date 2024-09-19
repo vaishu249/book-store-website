@@ -24,7 +24,7 @@ const Navbar = () => {
             localStorage.setItem("theme","light");
             document.body.classList.remove("dark");
         }
-    },[])
+    },[theme])
     const [sticky, setSticky] = useState(false)
     useEffect(() => {
         const handleScroll = () => {
@@ -42,9 +42,9 @@ const Navbar = () => {
     }, [])
 return (
     <>
-        <div className={`bg-background-color fixed top-0 left-0 right-0 z-50  ${sticky?"sticky-navbar shadow-md bf-base-200 transition-all ease-in-out":""}`}>
-            <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>
-                <div className="navbar bg-background-color">
+        <div className={` fixed top-0 left-0 right-0 z-50  ${sticky?"sticky-navbar shadow-md bf-base-200 transition-all ease-in-out":""}`}>
+            <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4 dark:bg-cyan-950 bg-[#f8f7f3]'>
+                <div className="navbar ">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,7 @@ return (
                         </div>
                         <div className='hidden md:block'>
                             <label className="px-3 py-2 border rounded-md flex items-center gap-2 ">
-                                <input type="text" className="grow outline-none bg-background-color" placeholder="Search" />
+                                <input type="text" className="grow outline-none dark:bg-cyan-950 bg-[#f8f7f3]" placeholder="Search" />
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 16 16"
