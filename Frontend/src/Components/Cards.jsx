@@ -3,8 +3,8 @@ import React from 'react'
 function Cards({item}) {
     return (
         <>
-            <div className='mt-4  md:p-7 p-3 '>
-                <div className="card  w-80 h-96 shadow-xl">
+            <div className='mt-4  md:p-6 p-3 '>
+                <div className="card  w-80 h-96 shadow-xl hover:scale-105 duration-200">
                     <figure>
                         <img
                             src={item.image}

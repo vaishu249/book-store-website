@@ -54,5 +54,45 @@
         "price": 600,
         "category": "Food",
         "image": "https://img.freepik.com/free-photo/open-book-concept-fiction-storytelling-fairytale_23-2150793739.jpg?t=st=1726579302~exp=1726582902~hmac=02824d3f8ff8d61630fae55be37ed53e8041113ecd842441825027aa0e5dd104&w=360"
+    },
+    {
+        "id": 8,
+        "name": "Science Fiction",
+        "title": "Futuristic technology and encounters with alien civilizations.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/open-book-with-fairytale-scene_52683-107845.jpg?uid=R152806575&ga=GA1.1.1312618267.1726584635&semt=ais_hybrid"
+    },
+    {
+        "id": 9,
+        "name": "Horror",
+        "title": "Fictional tales set against the backdrop of real historical events.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/person-gestures-holding-red-book_23-2148277431.jpg?uid=R152806575&ga=GA1.1.1312618267.1726584635&semt=ais_hybrid"
+    },
+    {
+        "id": 10,
+        "name": "Food",
+        "title": "Fictional tales set against the backdrop of real historical events.",
+        "price": 600,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-photo/open-book-concept-fiction-storytelling-fairytale_23-2150793739.jpg?t=st=1726579302~exp=1726582902~hmac=02824d3f8ff8d61630fae55be37ed53e8041113ecd842441825027aa0e5dd104&w=360"
+    },
+    {
+        "id": 11,
+        "name": "Horror",
+        "title": "Fictional tales set against the backdrop of real historical events.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/person-gestures-holding-red-book_23-2148277431.jpg?uid=R152806575&ga=GA1.1.1312618267.1726584635&semt=ais_hybrid"
+    },
+    {
+        "id": 12,
+        "name": "Food",
+        "title": "Fictional tales set against the backdrop of real historical events.",
+        "price": 600,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-photo/open-book-concept-fiction-storytelling-fairytale_23-2150793739.jpg?t=st=1726579302~exp=1726582902~hmac=02824d3f8ff8d61630fae55be37ed53e8041113ecd842441825027aa0e5dd104&w=360"
     }
 ]
