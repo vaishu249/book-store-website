@@ -21,13 +21,13 @@ const Signup = () => {
                         <input type="password" placeholder='Enter Your Password' className='md:w-96 w-80 py-1 px-3 border rounded-md outline-none' />
                     </div>
                     <div className='flex justify-around mt-4'>
-                        <button className='bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-slate-900 duration-300 cursor-pointer'>Login</button>
-                        <p className='px-4 py-2 text-xl'>Have Account ? 
+                        <button className='bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-slate-900 duration-300 cursor-pointer'>SignUp</button>
+                        <p className='px-4 py-2'>Have Account ? 
                         <button
                             className='underline text-blue-500 cursor-pointer'
                             onClick={()=> document.getElementById("my_modal_3").showModal()}
                         >
-                            Signup
+                            Login
                         </button>{" "}
                         <Login/>
                         </p>
