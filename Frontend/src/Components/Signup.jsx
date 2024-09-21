@@ -13,8 +13,12 @@ const Signup = () => {
                     </form>
                     <h3 className="font-bold text-lg">SignUp</h3>
                     <div className='mt-4 space-y-2'>
-                        <span>Email</span><br />
+                        <span>Name</span><br />
                         <input type="email" placeholder='Enter Your Email' className='md:w-96 w-80 py-1 px-3 border rounded-md outline-none' />
+                    </div>
+                    <div className='mt-4 space-y-2'>
+                        <span>Email</span><br />
+                        <input type="text" placeholder='Enter Your Name' className='md:w-96 w-80 py-1 px-3 border rounded-md outline-none' />
                     </div>
                     <div className='mt-4 space-y-2'>
                         <span>Email</span><br />
