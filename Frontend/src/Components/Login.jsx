@@ -30,6 +30,7 @@ const Login = () => {
                                 className='md:w-96 w-80 py-1 px-3 border rounded-md outline-none' 
                                 {...register("email", { required: true })}
                             />
+                            <br />
                             {errors.email && <span className='text-sm text-red-500'>This field is required</span>}
                         </div>
 
@@ -42,6 +43,7 @@ const Login = () => {
                                 className='md:w-96 w-80 py-1 px-3 border rounded-md outline-none' 
                                 {...register("password", { required: true })}
                             />
+                            <br />
                             {errors.password && <span className='text-sm text-red-500'>This field is required</span>}
                         </div>
 
