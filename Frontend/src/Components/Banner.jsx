@@ -12,7 +12,7 @@ const Banner = () => {
                         <p className='text-xl'>
                             At our online bookstore, we believe every reader deserves access to a world of stories that inspire, educate, and entertain. Whether you're a fan of timeless classics, eager to explore the latest bestsellers, or hunting for hidden literary gems, we have something for everyone.
                         </p>
-                        <label className="input input-bordered flex items-center gap-2 dark:bg-cyan-900 dark:text-white">
+                        <label className="input input-bordered flex itemszz-center gap-2 dark:bg-cyan-900 dark:text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 16 16"
